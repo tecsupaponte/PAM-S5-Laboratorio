@@ -17,6 +17,7 @@
 		86C2601A28D5155900A26B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C2601828D5155900A26B21 /* Main.storyboard */; };
 		86C2601C28D5155C00A26B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C2601B28D5155C00A26B21 /* Assets.xcassets */; };
 		86C2601F28D5155C00A26B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C2601D28D5155C00A26B21 /* LaunchScreen.storyboard */; };
+		F05D2C1728F0824C00D7F7FE /* ListUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05D2C1628F0824C00D7F7FE /* ListUsersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		86C2601B28D5155C00A26B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86C2601E28D5155C00A26B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86C2602028D5155C00A26B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05D2C1628F0824C00D7F7FE /* ListUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				86C2601628D5155900A26B21 /* ViewController.swift */,
 				867FEA8228DE527400A7CA30 /* UserViewController.swift */,
+				F05D2C1628F0824C00D7F7FE /* ListUsersViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				86C2601328D5155900A26B21 /* AppDelegate.swift in Sources */,
 				867FEA7F28DE500500A7CA30 /* UserViewModel.swift in Sources */,
 				86C2601528D5155900A26B21 /* SceneDelegate.swift in Sources */,
+				F05D2C1728F0824C00D7F7FE /* ListUsersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
